@@ -8,6 +8,7 @@ body {
 .breed-select {
   margin: 0 auto;
   margin-bottom: 20px;
+  width: 60px;
 }
 
 .loader {
@@ -27,10 +28,12 @@ body {
     background-color: #fff2;
     box-shadow: 32px 0 #fff2, -32px 0 #ff4d00;
   }
+
   50% {
     background-color: #ff4d00;
     box-shadow: 32px 0 #fff2, -32px 0 #fff2;
   }
+
   100% {
     background-color: #fff2;
     box-shadow: 32px 0 #ff4d00, -32px 0 #fff2;
