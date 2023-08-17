@@ -27,6 +27,7 @@ fetchBreeds()
       .join('');
     breedSelect.innerHTML = options;
 
+    const selector = new SlimSelect({ select: breedSelect });
   })
   .catch(onFetchError);
 
@@ -50,3 +51,5 @@ function onSelectBreed(e) {
     })
     .catch(onFetchError);
 }
+// new SlimSelect({
+//   select: '.breed-select',
